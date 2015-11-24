@@ -1,0 +1,29 @@
+if (race == Protoss)
+
+then
+
+set nexus rallypoint to minerals
+ 
+	while number of probes < 20
+ 
+	spawn probe
+
+elseif (race == Zerg)
+
+then
+
+set Hatchery rallypoint to minerals
+ 
+	while number of drones < 23
+ 
+	spawn drone
+
+elseif (race == Terran)
+
+then 
+
+	while number of SCVs < 20
+	
+	spawn SCV
+
+end if
